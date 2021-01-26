@@ -1,0 +1,44 @@
+@import "myPage.css";
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    font-size: 0;
+}
+
+/* общие стили */
+.body {
+    background-image: url('/assets/img/bodybg.png');
+    background-attachment: fixed;
+    background-size: 3vh 3vh;
+}
+
+.main_page section {
+    width: 800px;
+    height: 100vh;
+    background-image: url('/assets/img/mainbg.png');
+}
+
+.main_page h2 {
+    text-align: center;
+    padding: 0 150px;
+}
+
+.main_page p {
+    padding: 40px;
+}
+
+.main_page nav a {
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #F5F5F5;
+    background-color: #262828;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+

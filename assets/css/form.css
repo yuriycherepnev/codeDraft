@@ -1,0 +1,157 @@
+@import "flex.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+body {
+    background-image: url('/assets/img/bodybg.png');
+    background-attachment: fixed;
+    background-size: 3vh 3vh;
+    height: 100vh;
+    font-family: Georgia, serif;
+}
+
+main section {
+    width: 700px;
+    height: 100vh;
+   /* background-image: url('/assets/img/mainbg.png');*/
+}
+
+.nav {
+    height: 40px;
+    width: 100%;
+    text-align: right;
+}
+
+.nav a {
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #F5F5F5;
+    background-color: #262828;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#form {
+    padding: 80px 100px;
+    border-radius: 10px;
+    background-image: url('/assets/img/mainbg.png');
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #4682B4;
+}
+
+p {
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #262828;
+}
+
+#span_response {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #262828;
+}
+
+#response {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #262828;
+}
+
+
+#imgInput { /* поле выбора картинки */
+    display: none;
+}
+
+#labelImg {
+    display: inline-block;
+    outline: none;
+    width: 500px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #262828;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    color: #262828;
+    cursor: pointer;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #262828;
+    border-radius: 0.5vh;
+    outline: none;
+    background-color: #F5F5F5;
+    font-size: 2vh;
+    font-family: Georgia, serif;
+    color: #262828;
+}
+
+input::placeholder {
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+    background: #262828;
+    border: unset;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: #F5F5F5;
+}
+
+label {
+    position: relative;
+}
+
+.message {
+    position: absolute;
+    top: 25%;
+    left: 102%;
+    width: 270px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(255,120,120);
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: #262828;
+}
+
+.triangle {
+    position: absolute;
+    top: 5px;
+    right: 100%;
+    border: 7px solid transparent; /* Прозрачные границы */
+    border-right: 7px solid rgb(255,120,120); /* Добавляем треугольник */
+}
